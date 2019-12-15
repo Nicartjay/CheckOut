@@ -7,6 +7,9 @@
         xmlns:local="clr-namespace:CheckOut"
         mc:Ignorable="d"
         Title="CheckOut" Height="450" Width="800">
+    <Controls:MetroWindow.Background>
+        <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/BG.jpg"/>
+    </Controls:MetroWindow.Background>
     <Grid>
         
     </Grid>
