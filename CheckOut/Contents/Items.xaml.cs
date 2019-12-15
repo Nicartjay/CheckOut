@@ -10,28 +10,19 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
-using CheckOut.Contents;
 using MahApps.Metro.Controls;
 
-namespace CheckOut
+namespace CheckOut.Contents
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for Items.xaml
     /// </summary>
-    public partial class MainWindow : MetroWindow
+    public partial class Items : MetroWindow
     {
-        public MainWindow()
+        public Items()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            Items window = new Items();
-            window.Show();
-            this.Close();
         }
     }
 }
