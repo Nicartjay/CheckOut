@@ -7,7 +7,7 @@
         xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
         xmlns:local="clr-namespace:CheckOut"
         mc:Ignorable="d"
-        Title="CheckOut" Height="450" Width="800"
+        Title="Pick-a-Pair" Height="450" Width="800"
         WindowStartupLocation="CenterScreen"
         ShowMaxRestoreButton="False">
     <Controls:MetroWindow.Background>
@@ -24,7 +24,5 @@
             </Button>
         </Controls:WindowCommands>
     </Controls:MetroWindow.RightWindowCommands>
-    <Grid>
-        
-    </Grid>
+    <Grid/>
 </Controls:MetroWindow>
